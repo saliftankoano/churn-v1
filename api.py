@@ -26,7 +26,7 @@ def preprocess_data(customer_dict):
         "Gender_Female": customer_dict['gender'] == "Female",
         "Gender_Male": customer_dict['gender'] == "Male",
     }
-    customer_df = pd.DataFrame[input_dict]
+    customer_df = pd.DataFrame([input_dict])
 
     return customer_df
 
