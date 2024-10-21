@@ -5,7 +5,7 @@ import pandas as pd
 app = FastAPI()
 
 # Load voting classifier
-with open('gb_model.pkl', 'rb') as model_file:
+with open('gb_model-SMOTE.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 # Preprocess customer data
