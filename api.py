@@ -1,8 +1,8 @@
-from fastapi import FastApi
+from fastapi import FastAPI
 import pickle
 import pandas as pd
 
-app = FastApi()
+app = FastAPI()
 
 # Load voting classifier
 with open('voting_clf_model.pkl', 'rb') as model_file:
